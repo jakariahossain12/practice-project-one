@@ -97,3 +97,109 @@ text-align: center;
 border: none;
 
 }
+
+#card-box {
+    width: 1056px;
+    margin:50px auto ;
+
+
+
+}
+#card-box .title{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 51px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+#card-box .subtitle{
+    color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 19px;
+font-weight: 500;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.6;
+}
+.card-container{
+    margin-top: 38px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+.card{
+    width: 339px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+
+}
+.card .image-box{
+    max-width: 339px;
+}
+.card .image-box img{
+    width: 100%;
+}
+.card .shop{
+    color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 19px;
+font-weight: 600;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: center;
+border-radius: 8px;
+padding: 11px 25px 11px 25px;
+background: rgba(82, 195, 3, 0.15);
+margin-top: 15px;
+}
+.card .shop-title{
+    color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 32px;
+font-weight: 600;
+line-height: 37px;
+letter-spacing: 0%;
+text-align: center;
+margin-top: 15px;
+}
+.card .shop-des{
+    color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 18px;
+font-weight: 500;
+line-height: 28px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.7;
+margin-top: 15px;
+}
+
+.container .btn-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+.container .cont-btn{
+    color: rgb(255, 255, 255);
+font-family: Work Sans;
+font-size: 16px;
+font-weight: 600;
+line-height: 18px;
+letter-spacing: 0%;
+text-align: center;
+border-radius: 8px;
+
+background: rgb(82, 195, 3);
+padding: 16px 25px 16px 25px;
+margin: 0 auto;
+
+
+}
